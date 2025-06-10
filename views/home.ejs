@@ -1,0 +1,109 @@
+<%- include ('header_l') %>
+<main role = 'main'>
+	<section style="margin-top: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row mt-4">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8">
+							<div class="title-login text-center">
+								<h1 class="page-heading-login">Welcome to Amazon Deals Look-UP</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-4">
+						<div class="col-sm-10"></div>
+						<div class="col-sm-2"><button class = "cmn-btn" onclick="logOut()" id="btn_logout" type="button">Log Out</button></div>
+					</div>
+					<div class="row mt-4"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-12">
+					<div class="login-form-area">
+						<div class="row">
+							<div class="col-sm-1"></div>
+							<div class="col-sm-10">
+								<div class="login-form-l">
+									<table id="customer_data" class="table table-bordered">
+                            			<thead>
+			                                <tr>
+            			                        <th>Title</th>
+                        			            <th>Price</th>
+                                    			<th>Rating</th>
+                          			          	<th>Review</th>
+                          			          	<th>Link</th>
+                     			           </tr>
+                        			    </thead>
+                        		    	<tbody></tbody>
+                        			</table>
+									<!-- <form id="loginform" class="form-horizontal form-login" role="form" method="POST" action="/login">
+										<h2 style="margin-bottom: 15px; text-align: center; color: #375383"> Sign in</h2>
+										<div class="form-group-row">
+											<input class="form-control" placeholder="Email Address" autocomplete="email" type="email" name="user_name" required autofocus>
+										</div>
+										<div class="form-group-row">
+											<input class="form-control" placeholder="Password" autocomplete="current-password" type="Password" name="password" required>
+										</div>
+										<div class="form-group-row">
+											<input class="login-btn" type="submit" id="sign-in" value="Sign in">
+										</div>
+									</form> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<div class="home-footer">
+	<%- include ('footer') %>
+</div>
+<script>
+$(document).ready(function(){
+	var table = $('#customer_data').DataTable({
+		"ajax" : {
+			"url" : "/get_data",
+			"dataSrc" : ""
+		},
+        deferRender:    true,
+        scrollCollapse: true,
+        scroller:       true,
+        paging:         true,
+		columns :[
+			{"data": "Item_Title"},
+			{"data": "Item_Price"},
+			{"data": "Item_Rating"},
+			{"data": "Item_Review"},
+			{"data": "Item_URL", "render": function(data,type,row,meta){ if(type === 'display') { data = '<a href="' + data + '">' + data + '</a>'} return data}
+			}
+			]
+	});
+    // var dataTable = $('#customer_data').DataTable({
+    //     'ajax' : function (data,callback,settings) {
+    //     	// body...
+    //     } {
+    //         'url' : '/get_data',
+    //         'type': 'POST'
+    //     }
+    // });
+});
+
+function logOut() {
+	location.href = "/logout"
+};
+
+</script>
+<style>
+table {
+    table-layout:fixed;
+}
+td{
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+</style>

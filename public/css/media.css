@@ -1,0 +1,694 @@
+/* CSS Document */
+.line-break
+{
+  display:none;
+}
+
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+.table-hover > tbody > tr:hover >td { background-color: #989898
+  /*d2d2d2*/
+  /*CFF5FF*/ }
+.table-hover .table-active:hover >td {
+  background-color: #989898;
+}
+
+.emails-list:hover {
+   background-color: #989898
+}
+/*@media screen and (min-width:1200px) and (max-width:1365px) {
+  label {
+    font-size: 12px;
+  }
+}*/
+
+@media screen and (min-width:576px) and (max-width:1199px) {
+  .form-group{
+    margin-bottom: 0.0rem;
+  }
+  .form-col {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width:240px) and (max-width:1279px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+
+  input,
+  textarea {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  input[type="radio"] {
+    appearance: radio;
+    -moz-appearance: radio;
+    -webkit-appearance: radio;
+  }
+
+  input[type="checkbox"] {
+    appearance: checkbox;
+    -moz-appearance: checkbox;
+    -webkit-appearance: checkbox;
+  }
+
+  #head-wrap .bg-dark {
+    height: inherit;
+  }
+
+  .logo {
+    margin: 10px 0;
+  }
+
+#head-wrap {
+  margin-bottom: 85px;
+}
+  .logo img {
+    max-width: 300px;
+    max-height: 73px;
+  }
+
+/*  .midd-cnt-area {
+    padding: 10px 0;
+  }*/
+
+  .footer-links {
+    padding: 15px 0;
+    font-size: 13px;
+  }
+
+  .toprght {
+    padding: 37px 0;
+  }
+
+  .breadcrumb-link,
+  .breadcrumb-link a {
+    font-size: 13px;
+  }
+
+  .breadcrumb-link span {
+    margin: 0 7px;
+  }
+
+  .main-content-box {
+    padding: 10px;
+  }
+
+  #graphCanvas {
+    height: 280px;
+  }
+
+  .cmn-btn {
+    height: 48px;
+    line-height: 48px;
+  }
+
+  .line {
+    font-size: 50%;
+  }
+
+  .vsmll {
+    font-size: 50%;
+  }
+
+  .vvsmll {
+    font-size: 20%;
+  }
+
+  .col-3 {
+    font-size: 75%;
+  }
+
+  .col-9 {
+    font-size: 75%;
+  }
+
+  .form-symb.yr {
+    left: 215px;
+  }
+}
+@media screen and (min-width:1280px) {
+.main-top {
+  margin-top: 67px;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+  .login-form-r {
+    height: 470px;
+  }
+
+  .home-r {
+    height: 470px;
+  }
+
+/*  .midd-cnt-area {
+    min-height: 615px;
+  }*/
+
+  /*body.afterlogin #midd-wrap {
+    margin-top: 120px;
+  }*/
+
+  .comparison-calc-tabs .nav-link {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+/*  .form-check label {
+    font-size: 75%
+  }*/
+
+  .line {
+    font-size: 80%;
+  }
+
+  .vsmll {
+    font-size: 80%;
+  }
+
+  .vvsmll {
+    font-size: 59%;
+  }
+
+  .form-symb.yr {
+    left: 275px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+/*  .midd-cnt-area {
+    min-height: 860px;
+  }
+*/
+  body.afterlogin #midd-wrap {
+    margin-top: 120px;
+  }
+
+  .login-form-r {
+    height: 420px;
+  }
+
+  .login-form-inner {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .signup-form-inner {
+    width: 97%;
+  }
+
+  .login-form-links span {
+    margin: 0 20px;
+  }
+
+  .home-r {
+    height: 420px;
+  }
+
+  .home-inner {
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .home-links span {
+    margin: 0 20px;
+  }
+
+  .profile-box-cnt.form-symb-ico .profile-form-row {
+    margin: 10px 1%;
+    float: left;
+    width: 48%;
+  }
+
+  .action-links img {
+    margin-right: 5px;
+    width: 14px;
+  }
+
+  .action-links a {
+    margin: 0 8px;
+  }
+
+  .comparison-calc-tabs .nav-link {
+    padding: 10px 0;
+    line-height: 18px;
+  }
+
+  .nav-tabs .nav-item {
+    width: 33.33%;
+    text-align: center;
+    border-bottom: 1px solid #375383;
+  }
+
+  .comp-calc-block2.comp-calc-block3 {
+    clear: both;
+  }
+
+  .comp-calc-block1 {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .comp-calc-block2 {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .comp-calc-hd {
+    height: auto;
+    padding: 5px 0;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .comp-calc-hd br {
+    display: none;
+  }
+
+  .comp-calc-blk.borderlftnone,
+  .comp-calc-amt.borderlftnone {
+    border-left: 1px solid #cad0db !important;
+  }
+
+  .comp-calc-block4 .comp-calc-hd-color1 {
+    border-radius: 0;
+  }
+
+  .comp-calc-block2 .comp-calc-amt {
+    border: 1px solid #cad0db;
+  }
+
+  .line {
+    font-size: 60%;
+  }
+
+  .vsmll {
+    font-size: 70%;
+  }
+
+  .vvsmll {
+    font-size: 40%;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1100px) {
+  .form-symb.yr {
+    left: 215px;
+    ;
+  }
+}
+
+@media screen and (max-width:767px) {
+/*  .midd-cnt-area {
+    min-height: inherit;
+  }
+*/
+  .login-form-l {
+    padding: 20px 0;
+  }
+
+  .login-form-r {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .login-form-inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .signup-form-inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .login-form-links span {
+    margin: 0 20px;
+  }
+
+  .home-l {
+    padding: 20px 0;
+  }
+
+  .home-r {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .home-inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .home-links span {
+    margin: 0 20px;
+  }
+
+  .bottlinks {
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .login-form-links a {
+    font-size: 15px;
+  }
+
+  .login-form-links span {
+    margin: 0 10px;
+  }
+
+  .home-links a {
+    font-size: 15px;
+  }
+
+  .home-links span {
+    margin: 0 10px;
+  }
+
+  h1.page-heading {
+    font-size: 22px;
+  }
+
+  .login-form-inner h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .signup-form-inner h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .login-form-r-cnt h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .home-inner h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .home-r-cnt h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .create-porfile-btn {
+    text-align: center;
+  }
+
+  .toprght {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding: 6px 0;
+  }
+
+  .breadcrumb {
+    padding: 10px;
+  }
+
+  body.afterlogin .logo {
+    margin: 0 0;
+  }
+
+  body.afterlogin #midd-wrap {
+    margin-top: 75px;
+  }
+
+  .profile-btn a.cmn-btn {
+    max-width: 100%;
+    min-width: inherit;
+  }
+
+  .profile-btn {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  table.cmn-table td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  table.cmn-table td a {
+    display: block;
+    white-space: nowrap;
+    margin: 2px 0;
+  }
+
+  .logo img {
+    max-width: 280px;
+    max-height: 60px;
+    text-align: center;
+  }
+
+  .main-content-box {
+    padding: 10px;
+  }
+
+  #graphCanvas {
+    height: 190px;
+  }
+
+  .play-view-box {
+    margin: 10px 0;
+    height: 250px;
+  }
+
+  h1.page-heading:after {
+    margin-bottom: 20px;
+  }
+
+  .nav-tabs .nav-item {
+    width: 50%;
+    text-align: center;
+    display: table;
+    height: 55px;
+  }
+
+  .comparison-calc-tabs .nav-link {
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 0;
+    padding-right: 5px;
+    margin: 3px 0;
+  }
+
+  .comparison-calc-tabs .nav-tabs .nav-link {
+    border-bottom: 1px solid #375383;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .comparison-calc-tabs .nav-tabs {
+    border-bottom: none;
+  }
+
+  .comp-calc-block2.comp-calc-block3 {
+    clear: both;
+  }
+
+  .comp-calc-block1 {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .comp-calc-block2 {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .comp-calc-hd {
+    height: auto;
+    padding: 5px 0;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .comp-calc-hd br {
+    display: none;
+  }
+
+  .comp-calc-blk.borderlftnone,
+  .comp-calc-amt.borderlftnone {
+    border-left: 1px solid #cad0db !important;
+  }
+
+  .comp-calc-block4 .comp-calc-hd-color1 {
+    border-radius: 0;
+  }
+
+  .comp-calc-block2 .comp-calc-amt {
+    border: 1px solid #cad0db;
+  }
+
+  .comp-calc-l,
+  .comp-calc-r {
+    width: 100%;
+    float: none;
+  }
+
+  .comp-calc-l {
+    margin-bottom: 20px;
+  }
+
+  .line {
+    font-size: 35%;
+  }
+
+  .vsmll {
+    margin-left: 15px;
+    font-size: 50%;
+  }
+
+  .vvsmll {
+    margin-left: 15px;
+    font-size: 20%;
+  }
+
+  .vav {
+    margin-left: 30px;
+  }
+
+  #TotValTab1 {
+    font-size: 80%;
+  }
+
+  #ActValTab1 {
+    font-size: 80%;
+  }
+
+}
+@media screen and (min-width:576px) and (max-width:767px) {
+  #head-wrap {
+    margin-bottom: 125px;
+  }
+}
+@media screen and (min-width:290px) and (max-width:576px) {
+
+
+ .line-break
+ {
+   display:block;
+ }
+ .sapmle-btn
+ {
+  font-size: 0.6rem !important;
+  margin-left: 0 !important;
+ }
+}
+
+@media screen and (max-width: 480px) {
+  body.afterlogin #midd-wrap {
+    margin-top: 105px;
+  }
+
+  body.afterlogin #midd-wrap div.breadcrumb {
+    display: none;
+  }
+
+  .line {
+    font-size: 25%;
+  }
+
+  .col-3 {
+    font-size: 75%;
+  }
+
+  .col-9 {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* STYLES GO HERE */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  /* STYLES GO HERE */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  
+
+  /* STYLES GO HERE */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* STYLES GO HERE */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* STYLES GO HERE */
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+  /* STYLES GO HERE */
+  
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+  /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  /* STYLES GO HERE */
+  .title-login {
+    margin-right: 0%
+  }
+  .user-list-left{
+      width: 70%;
+  }
+  .user-list-right{
+      width: 30%;
+  }
+  .user-list-right span{
+      margin-top: 5px;
+  }
+  .age-blank{
+      flex: 0 0 15%; 
+  }
+  .age-data{
+      flex: 0 0 70%; 
+      max-width: 70%
+  }
+  
+  .head-logo-left{
+      width: 100%;
+  }
+  .head-logo-right{
+      width: 90%;
+  }
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+  /* STYLES GO HERE */
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+  /* STYLES GO HERE */
+}

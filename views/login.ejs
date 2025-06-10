@@ -1,0 +1,59 @@
+<%- include ('header_l') %>
+<main role = 'main'>
+	<section style="margin-top: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row mt-4">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8">
+							<div class="title-login text-center">
+								<h1 class="page-heading-login">Welcome to Amazon Deals Look-UP</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<div class="login-form-area">
+						<div class="row">
+							<div class="col-sm-2"></div>
+							<div class="col-sm-8">
+								<div class="login-form-l">
+									<form id="loginform" class="form-horizontal form-login" role="form" method="POST" action="/login">
+										<% if( message.length > 0) { %>
+										<% if( type == 'is-danger') { %>
+										<div class="alert alert-danger col-sm-12" style="display: inline-block;">
+											<%= message %>
+										</div>
+										<% } else { %>
+										<div class="alert alert-success col-sm-12" style="display: inline-block;">
+											<%= message %>
+										</div>
+										<% } %>
+										<% } %>
+										<h2 style="margin-bottom: 15px; text-align: center; color: #375383"> Sign in</h2>
+										<div class="form-group-row">
+											<input class="form-control" placeholder="Email Address" autocomplete="email" type="email" name="user_name" required autofocus>
+										</div>
+										<div class="form-group-row">
+											<input class="form-control" placeholder="Password" autocomplete="current-password" type="Password" name="password" required>
+										</div>
+										<div class="form-group-row">
+											<input class="login-btn" type="submit" id="sign-in" value="Sign in">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<div class="home-footer">
+	<%- include ('footer') %>
+</div>

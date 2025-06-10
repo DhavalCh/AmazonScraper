@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ifl-income-for-life",
+  "private_key_id": "39d2c0477b994f3c1feb91dd7c3b4647d7c87fbb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCw4vPBpU2mGa5n\ntEuZ2WM4dbes6eTf6N0R/4pkPrb11LzHlikVHoYUTw2Wg0iQDQRgMcajcHbRHEWA\n4PXvFe0tHNVF1aGFAbLZinwGxAukvvkDVWPpS8s11afb/tc3SFnwWNfNaZBPxmx5\n4+tJ5GwMe2+xICi9N5Q6NWjrUCbr96nyRBMM6luTCizW9LwZqW49mfaWZ4ec91Mn\ny5QpbVmj8jXm8BaYMXu9CWZ1H0K1l+KGJZb7mwL0eJJpEFXqf8PtcwQgS6slXpJl\nrBbUcRo+FgrONYTPk7RDkGHiGhAb9P+VH3VRmc54SPRnoBsn41UDecc2uCjuBtG4\nlwS6qZ8bAgMBAAECggEARJJWqJUqet+tyqoMPMIXQsXvxGqPvXWKbfXAcogVaUtl\nO4IsvvEsTScwP075jE5fieMB/E4W4Y2yK/oJnPvFDB4HV6Evkl5MNSUIW58YXG9k\nHTS3HLOzPVVsU06Bo/66TwBB+HGZ7jMfzkja57RTZqtbazDqWh/3qHEYEVDrJcIg\nwPPEw+VR/8AC02XAmoLOyFDulyPexD9I32kxYh3hVeIICjLdi07Wodn1SCkPUsTK\np5zbG0S8HO2AZfFZ1DJdemi/FOWeOdTKVwItQrs+dz86zC9IxHNCFlKUxJhXlfSH\neFfWuI7LbRCg0IUd5LkOhFf+siZ5aQlD5tgPlkOe0QKBgQDwFNTe7mBWpIrNtyoG\ntdzzZ13Zi4FEWBPLT6j0wlcFvuwe3T+dX9A2T3HI+FfszBXzEvfOu3LE+lafA3Ay\n82jJ+lb7lJIynAFzdIWVwAfg2bzcLkThD/m/zfayZpsE3rDIoiDkrJo2vHTaqY0y\nIZuLLxKO/pdW6oOq7MKqNhGPlQKBgQC8nXG5vDaRYqM3q86eQHoaRhr+Txd03R82\nMteLuG5XFMWfSb7ny+TeeyYqAtnr7kMvgucjw0rkDx2Qc+VshvVDnsSi29g7lISj\nfQueJqTni/3o9nRtyDn7dONkpLzZuJmWXRCr7WRQ8EkWm3PCkyNrnyy51w+YHrEH\no5W8GBmH7wKBgGVpNz3vzUvr9yHMQ/lPqsQ6Hn99GR5oYfwYaxLwYFfx/MVQycVN\nKqM2TacJmAJTdtYVZg2ySlmAMUS77BHplZLzpvhgGp08HrTJPIAz/F/zOX58IOY8\nnE9zzcgv5T1aX6xwJ5rQedezJV0UD6tkXNKfEKTMT9sL9pAlsFi7vBE9AoGAfmm3\nkxiGKiLF6cYIkR/9tiZOaStxOS4KgTTKKibOLScK3Jt8i7aoCkTXa0jF7c6e0PUX\nHW0CgJ9w3SQQHBDHyS5b9BsMbcI4s6pXYwPbeiTlZIHpvrp3wgSxcv7GY9XJenGd\nft14YpbpJXHCwCIFl1fzjgqJtRa857XH4Wz1j5kCgYBZ6wuAtdt9kto0xVwidugL\nOQqf5mnlk3I3shqRreumHqBLypP9XBeWJvomsWnV27N6QjauwTIQFqAPZKm9L/tp\nlqARg1at/exKIRXbKgoT5ueMW2VoZycyJZJac82813+Wk6iLXycK5sigtawlQ+1O\nc4eUTOV/USKa8/98E3D5HA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "compliancebrain-storage-bucket@ifl-income-for-life.iam.gserviceaccount.com",
+  "client_id": "111926027076546333934",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/compliancebrain-storage-bucket%40ifl-income-for-life.iam.gserviceaccount.com"
+}
